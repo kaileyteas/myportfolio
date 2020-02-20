@@ -1,0 +1,52 @@
+h1 {
+    font-size: 2rem;
+    display:flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 1.5rem;
+    display:flex;
+    justify-content: center;
+    color:#444444;
+}
+
+p {
+    font-weight: normal;
+    color:#444444;
+    text-align:left;
+}
+
+.homeSection {
+    display:flex;
+    flex-direction:column;
+    padding-top:6rem;
+    padding-bottom:3rem;
+    box-shadow:0px 8px 10px lightgrey;
+}
+.aboutSection {
+    padding-top: 4rem;
+    padding-bottom:3rem;
+    box-shadow:0px 8px 10px lightgrey;
+}
+.aboutSectionDetails {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    width:70%;
+    
+}
+
+.aboutSectionDescription {
+    padding-left:3rem;
+    padding-right:3rem;
+    display:inline-block;
+}
+
+.aboutSectionSocials {
+    display:flex;
+    flex-direction:column;
+}
