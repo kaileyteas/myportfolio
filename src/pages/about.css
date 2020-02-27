@@ -1,0 +1,19 @@
+h1 {
+    font-size: 2rem;
+    display:flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.aboutHeader {
+    display:flex;
+    flex-direction:column;
+    padding-top:3rem;
+    padding-bottom:3rem;
+}
+
+.profilePic {
+    display:flex;
+    justify-content: center;
+
+}

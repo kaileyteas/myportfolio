@@ -35,9 +35,7 @@ p {
     flex-direction:row;
     justify-content: center;
     padding-right: 5rem;
-    padding-left: 5rem;
-    width:70%;
-    
+    padding-left: 5rem;    
 }
 
 .aboutSectionDescription {
@@ -47,6 +45,7 @@ p {
 }
 
 .aboutSectionSocials {
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
 }
