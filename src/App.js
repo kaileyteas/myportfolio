@@ -5,9 +5,11 @@ import Home from './pages/home'
 import Portfolio from './pages/portfolio'
 import Contact from './pages/contact'
 import About from './pages/about'
+import 'antd/dist/antd.css';
 
 function App() {
-  return  <BrowserRouter>
+  return <BrowserRouter>
+  
     <div className="App">
       <header className="App-header">
         Kailey Terracciano
@@ -21,8 +23,9 @@ function App() {
       <Route path="/about" component={About} />
       <Route path="/portfolio" component={Portfolio} />
       <Route path="/contact" component={Contact} />
-    </div>
 
+    </div>
+    
   </BrowserRouter>
 }
 

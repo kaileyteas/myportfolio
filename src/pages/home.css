@@ -49,3 +49,9 @@ p {
     flex-direction: column;
     justify-content: right;
 }
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    padding:3rem 3rem 3rem;
+}

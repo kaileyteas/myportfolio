@@ -1,6 +1,10 @@
 import React from 'react'
+import { Card, Col, Row } from 'antd';
+import { EditOutlined, EllipsisOutlined, SettingOutlined } from "@ant-design/icons";
 
 function home(){
+    const { Meta } = Card;
+
     return <div className="page">
         <div className="homeSection">
             <h1>Hi there, I'm Kailey.</h1>
@@ -13,9 +17,10 @@ function home(){
                 <img src="https://image.flaticon.com/icons/svg/1067/1067993.svg" 
                 alt="Graduate Icon" width="200px" height="200px"/>
                 <div className="aboutSectionDescription">
-                    <p>I'm a Junior in Human-Centered Design & Engineering with a focus in Human-Computer Interaction at the University of Washington, Seattle.</p>
-                    
+                    <p>I'm a Junior in Human-Centered Design & Engineering with a focus in 
+                        Human-Computer Interaction at the University of Washington, Seattle.</p>
                 </div>
+
                 <div className="aboutSectionSocials">
                     <div style={{"display":"flex", "flex-direction":"row", "justify-content":"center"}}>
                         <a href="https://linkedin.com/in/kaileytea">
@@ -38,7 +43,42 @@ function home(){
                 </div>
             </div>
         </div>
-
+        <div className="projects">
+            <h1>Projects</h1>
+            <div>
+                <div className="site-card-wrapper">
+                    <Row gutter={16}>
+                    <Col span={8}>
+                        <Card
+                            hoverable
+                            style={{ width: 300 }}
+                            cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                        >
+                            <Meta title="Europe Street beat" description="www.instagram.com" />
+                        </Card>
+                    </Col>
+                    <Col span={8}>
+                        <Card
+                            hoverable
+                            style={{ width: 300 }}
+                            cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                        >
+                            <Meta title="Europe Street beat" description="www.instagram.com" />
+                        </Card>
+                    </Col>
+                    <Col span={8}>
+                        <Card
+                            hoverable
+                            style={{ width: 300 }}
+                            cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                        >
+                            <Meta title="Europe Street beat" description="www.instagram.com" />
+                        </Card>
+                    </Col>
+                    </Row>
+                </div>
+            </div>
+        </div>
     </div>
 
 }
