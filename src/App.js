@@ -8,6 +8,7 @@ import About from './pages/about'
 import 'antd/dist/antd.css';
 import { Menu, Dropdown } from 'antd';
 import { DownOutlined } from '@ant-design/icons';
+import "animate.css/animate.min.css";
 
 function App() {
   const { SubMenu } = Menu;

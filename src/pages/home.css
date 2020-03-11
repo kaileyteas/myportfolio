@@ -17,12 +17,16 @@ p {
     color:#444444;
     text-align:left;
 }
-
 .homeSection {
+    justify-content: center;
+    padding-top:6rem;
+}
+
+.homeSection-wrapper {
     display:flex;
+    justify-content: center;
     flex-direction:column;
-    padding-top:20rem;
-    padding-bottom: 15rem;
+    padding-bottom: 5rem;
     box-shadow:0px 8px 10px lightgrey;
 }
 .aboutSection {
@@ -36,10 +40,10 @@ p {
     padding-right: 10rem;
     padding-left: 10rem;    
 }
-
 .aboutSectionDescription {
     padding:2rem 2rem 0rem 2rem;
     display:inline-block;
+    width:60%;
 }
 
 .aboutSectionSocials {
@@ -48,7 +52,7 @@ p {
     justify-content: right;
 }
 .projects {
-   padding:2rem 2rem;
+   padding-top:4rem;
 }
 .projectItems {
     display: flex;
