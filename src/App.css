@@ -3,7 +3,7 @@
 
 .App {
   text-align: center;
-  font-family: Avenir;
+  font-family: Avenir, Helvetica, League Spartan;
   font-weight: bold;
 }
 
@@ -32,8 +32,8 @@
   min-height: 10vh;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
+  align-items: left;
+  padding:2rem;
   font-size: calc(10px + 2vmin);
 }
 
@@ -48,5 +48,5 @@ a {
 
 a:hover, a:active, a:focus {
   color: #000;
-  font-weight: bolder;
+  font-weight: bold;
 }
